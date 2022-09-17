@@ -1,0 +1,75 @@
+h1 {
+    text-align: center;
+  font-family: 'Tinos', serif;
+  font-size: 80px;
+  color: black;
+  text-decoration: underline solid tan;
+  margin-top: 0;
+  }
+body, html {
+  height: 100%;
+  max-width: 100%;
+  margin: 0;
+}
+
+  
+div.background{
+    background-image: url(https://miro.medium.com/max/1040/1*0gMzOrFjl3au_EPs2XV_YQ.jpeg);
+    background-size: auto;
+    
+   
+  }
+  .transbox{
+     margin: 30px;
+   background-color: #ffffff;
+   border: 1px solid black;
+   opacity: 0.6;
+
+  }
+  .transbox p {
+   margin: 5%;
+   font-weight: bolder;
+   color: #000000;
+   font-size: 20px;
+}
+  .images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    text-decoration: underline solid tan;
+    
+  }
+  .img-responsive{
+    width: 350px;
+    height: 300px;
+    color: white;
+
+  }
+  
+  p {
+    font-family: "Times New Roman", Times, serif;
+  font-size: 24px;
+  color: black;
+  text-align: center;
+}
+  h3 {
+    color:black;
+    font-size: 30px;
+  text-align: center;
+}
+  
+h5 {color: black;
+    text-align: right;}
+ul {
+    text-align: left;
+  width: 910px;
+    color: black;
+    font-size: 26px;
+}
+li {
+   
+    display: inline-block;
+    padding-left: 30%;
+    padding-bottom: 10px;
+    line-height: 25px;
